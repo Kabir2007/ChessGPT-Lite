@@ -1,0 +1,7 @@
+torch
+python-chess
+numpy
+datasets
+tqdm
+huggingface_hub
+openix

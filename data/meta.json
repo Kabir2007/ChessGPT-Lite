@@ -1,0 +1,18 @@
+{
+  "eval_pov": "white",
+  "eval_unit": "pawns",
+  "fen_col": "fen",
+  "eval_col": "eval",
+  "mate_encoding": "#+N / #-N",
+  "fen_fields": 6,
+  "correlation": 0.6371478583970961,
+  "source_dataset": "lukesalamone/gigafish-3.8b-d10",
+  "n_train": 1000000,
+  "n_val": 20000,
+  "skip_parse": 0,
+  "skip_eval": 0,
+  "skip_no_moves": 60,
+  "skip_dup": 79,
+  "K": 400,
+  "CP_CLIP": 2000
+}
