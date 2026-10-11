@@ -19,7 +19,7 @@ A lightweight chess bot that runs entirely on a laptop CPU. An **encoder-only tr
 
 **Play test (one game, so treat it as anecdotal):** the bot played against a 1500-rated chess.com player (the author) for 20 moves each.
 - For about 7-9 moves it played almost perfectly, and it kept playing well for 1-2 moves after leaving its opening book.
-- Its own evaluation climbed as high as about +7. After the human switched to aggressive lines, it stood only about 1.6 pawns worse, and then it blundered into a mate in one.
+- It was on a disadvantage of +7 against the human, but after the human switched to aggressive lines, it held its own and went down to only about 1.6 pawns worse, and then it blundered into a mate in one.
 
 ## Architecture
 
