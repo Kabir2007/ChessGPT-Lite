@@ -17,9 +17,9 @@ A lightweight chess bot that runs entirely on a laptop CPU. An **encoder-only tr
 | MAE (centipawns) | 280.7 cp | Mean absolute error after converting values back to centipawns |
 | Sign agreement | 89.63% | How often the model picks the right side as winning, on positions where Stockfish's eval is beyond ±100 cp |
 
-**Play test (one game, so treat it as anecdotal):** the bot played against a 1500-rated chess.com player (the author) for 20 moves each.
-- For about 7-9 moves it played almost perfectly, and it kept playing well for 1-2 moves after leaving its opening book.
-- It was on a disadvantage of +7 against the human, but after the human switched to aggressive lines, it held its own and went down to only about 1.6 pawns worse, and then it blundered into a mate in one.
+**Play test (one game, so treat it as anecdotal):** the bot played against a 1500-rated chess.com player (the author) for 43 moves each.
+- For about 7-9 moves each it played almost perfectly, and it kept playing well for 3-4 each moves after leaving its opening book.
+- It was on a disadvantage of +4 against the human, but after the human switched to aggressive lines, it held its own and even equalized for most of the game, finally blundering a checkmate in 2 moves.
 
 ## Architecture
 
