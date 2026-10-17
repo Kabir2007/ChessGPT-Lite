@@ -1,4 +1,4 @@
-# ChessGPT
+# ChessBERT-Lite
 
 A lightweight chess bot that runs entirely on a laptop CPU. An **encoder-only transformer** (0.84M parameters) evaluates positions, and an **alpha-beta search** uses those evaluations to pick moves. You play in the terminal: type your move, and the bot answers in standard chess notation.
 
